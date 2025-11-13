@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+       <html xmlns="http://www.w3.org/1999/xhtml"
+             xml:lang="en" lang="en"><head>
+<title>Sending results by email</title>
+<style>
+body{
+	color: #000000;
+	background-color: #ffffff;
+	font-family: Arial,helvetica,sans-serif;
+}
+
+h2{
+	text-align: center;
+	padding: 5px;
+	color: #ffffff;
+	background-color: #660000;
+}
+
+h3{
+	padding: 5px;
+	color: #ffffff;
+	background-color: #660000;
+	text-align: left;
+}
+
+p{
+	padding: 5px;
+}
+
+a:link {
+	text-decoration: underline; 
+	color: #990000;
+}
+
+a:visited {
+	text-decoration: underline;
+	color: #660000;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color: #ff0000;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Sending results by email</h2>
+
+<ul>
+<li><a href="#about">What's this all about?</a></li>
+<li><a href="#how">How do I make this work?</a></li>
+<li><a href="#support">Why don't you provide support for this?</a></li>
+<li><a href="#more">I want it to do more than this!</a></li>
+<li><a href="#cheating">Can my students cheat?</a></li>
+<li><a href="#failure">I can't get it to work!</a></li>
+<li><a href="#hotpotnet">This is too complicated! Is there an easy way?</a></li>
+</ul>
+
+<h3 id="about" class="Heading">What's this all about?</h3>
+
+<p>The CGI functionality allows you to send the score of a quiz
+to a PERL CGI script called FormMail.pl. FormMail will then take
+that information and send it on to you in an email. If you set
+this up properly, then when your student first loads the page, he
+or she will be asked to enter a name or other type of
+identification (such as a student number). As soon as the
+exercise is complete, the student's name or ID, the title of the
+exercise, the score, and the start and end times will be sent off
+to the CGI script on your server, and the script will send you an
+email containing this information.</p>
+
+
+<h3 id="how">How do I make this work?</h3>
+<p><strong>THIS WILL ONLY WORK IF:</strong></p>
+
+<ol type="a">
+<li>you have the FormMail.pl PERL script correctly installed on
+your server</li>
+<li>your exercise is also located on the same server (in other
+words, this is not likely to work when the exercise is located on
+your desktop computer)</li>
+<li>you enter the correct address for your FormMail script, and a
+correct email address</li>
+</ol>
+
+<p>The first thing you need to do is to find out if FormMail.pl
+is installed on your server. FormMail.pl is one of the most
+common CGI scripts on the Web, so it's quite likely. If so, then
+ask your server administrator to tell you the address.</p>
+
+<p>If FormMail isn't on your server, you can get it free from
+here:</p>
+<p style="text-align: center'"><a
+href="http://www.worldwidemart.com/scripts/formmail.shtml">http://www.worldwidemart.com/scripts/formmail.shtml</a></p>
+
+<p>You and/or your system administrator will have to read the
+instructions in the FormMail package to install and configure
+FormMail properly. <strong>We cannot help with this.</strong></p>
+
+<h3 id="support">Why don't you provide support for this?</h3>
+
+<p>Getting this functionality to work properly involves
+configuring a PERL script on your server.</p>
+
+<ul>
+<li>We didn't write FormMail.</li>
+<li>We're not PERL gurus.</li>
+<li>We have no control over your server (in fact, you probably
+don't either).</li>
+</ul>
+
+<p>So this is between you and your system administrator.</p>
+
+<h3 id="more">I want it to do more than this!</h3>
+
+<p>Of course you do. Some people will want to get student names
+<em>and</em> ID numbers, some will want a list of questions that
+were wrong, some will want the student not to see his or her
+score -- the list of possible variations is infinite. What we
+have given you is basic CGI functionality; based on our code, and
+the instructions of the FormMail.pl script, you will be able to
+add any behaviours or features you want, by editing the HotPot
+source files (see the Help for information on how the source
+files work, and how to edit them). You'll need to learn some HTML 
+and JavaScript.</p>
+
+<h3 id="cheating">Can my students cheat?</h3>
+
+<p>Very easily. This is not secure testing. If you need a secure
+testing solution, you need to look at server-side products such
+as WebCT, QuestionMark and BlackBoard. That's not what HotPot is
+for.</p>
+
+<h3 id="failure">I can't get it to work!</h3>
+
+<p>That's a shame. There's not much we can do to help, but you might try the solution below instead.</p>
+
+<h3 id="hotpotnet">This is too complicated! Is there an easy way?</h3>
+
+<p>If you have access to a Moodle server, you can get the <a href="https://moodle.org/plugins/mod_hotpot">HotPot</a> module installed and upload Hot Potatoes exercises into Moodle.</p>
+
+</body>
+</html>

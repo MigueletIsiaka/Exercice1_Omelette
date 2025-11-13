@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jmatch-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Martin Holmes</dc:creator>
+    <dc:title>A Categorization Exercise made with JMatch</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>7</version>
+
+<data>
+<title>A Categorization Exercise made with JMatch</title>
+
+<timer><seconds>120</seconds><include-timer>1</include-timer></timer>
+
+<reading>
+<include-reading>1</include-reading>
+<reading-title>This is a test exercise</reading-title>
+<reading-text>This exercise contains a number of key features demonstrating the version 7 JMatch enhancements. It has the following complex features:
+
+&amp;#x003C;ul&amp;#x003E;
+&amp;#x003C;li&amp;#x003E;Multiple instances of the same category on the left, with multiple instances of words that can match with each instance of some of those categories. &amp;#x003C;/li&amp;#x003E;
+&amp;#x003C;li&amp;#x003E;Multiple instances of the same word on the right, where each can match with a different category (smell = noun, smell = verb). &amp;#x003C;/li&amp;#x003E;
+&amp;#x003C;li&amp;#x003E;Distractors on the left for which there are no matches on the right. &amp;#x003C;/li&amp;#x003E;
+&amp;#x003C;li&amp;#x003E;Distractors on the right, for which there are no matching categories on the left.&amp;#x003C;/li&amp;#x003E;
+&amp;#x003C;li&amp;#x003E;Shuffling of the left items as well as the right items. &amp;#x003C;/li&amp;#x003E;
+&amp;#x003C;li&amp;#x003E;A configured setting to show a limited number of items every time the page loads, so some must be discarded from each side.&amp;#x003C;/li&amp;#x003E;
+&amp;#x003C;li&amp;#x003E;A reading text.&amp;#x003C;/li&amp;#x003E;
+&amp;#x003C;li&amp;#x003E;A timer.&amp;#x003C;/li&amp;#x003E;
+&amp;#x003C;/ul&amp;#x003E;
+
+This is how the exercise works:
+
+&amp;#x003C;ul&amp;#x003E;
+&amp;#x003C;li&amp;#x003E;It ensures that any randomly-reduced selection of items has at least one correct configuration that can be accomplished.&amp;#x003C;/li&amp;#x003E;
+&amp;#x003C;li&amp;#x003E;It marks each individual answer correct according to whether it is a good match or not, but also marks the exercise according to whether all the matches are correct or not. &amp;#x003C;/li&amp;#x003E;
+&amp;#x003C;li&amp;#x003E;It retains the positions of already-matched items whenever the window is resized, including cases of bad matches which have been marked by checking the answers.&amp;#x003C;/li&amp;#x003E;
+&amp;#x003C;/ul&amp;#x003E;</reading-text>
+
+</reading>
+
+<matching-exercise>
+<default-right-item>???</default-right-item>
+
+<pair>
+<left-item><text>noun</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>thought</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>verb</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>think</text>
+<fixed>1</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>noun</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>speech</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>verb</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>speak</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>noun</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>sight</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>verb</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>see</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text></text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>thoughtful</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text></text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>visual</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>adverb</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>&amp;#x00A0;&amp;#x00A0;&amp;#x00A0;</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>article</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>&amp;#x00A0;&amp;#x00A0;&amp;#x00A0;</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>noun</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>smell</text>
+<fixed>1</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>verb</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>smell</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>noun</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>record</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>verb</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>record</text>
+<fixed>0</fixed>
+</right-item></pair>
+</matching-exercise>
+</data>
+
+<hotpot-config-file>
+<jmatch>
+<exercise-subtitle>Drag-and-drop exercise</exercise-subtitle>
+<instructions>Drag each word over to an appropriate category.</instructions>
+<next-ex-url>index.htm</next-ex-url>
+<send-email>0</send-email>
+<show-limited-questions>1</show-limited-questions>
+<questions-to-show>9</questions-to-show>
+<shuffle-questions>1</shuffle-questions>
+<separate-javascript-file>0</separate-javascript-file>
+<next-caption>Next</next-caption>
+<delete-caption>Delete</delete-caption>
+<guess-correct>Correct! Well done.</guess-correct>
+<guess-incorrect>Sorry! Try again.</guess-incorrect>
+</jmatch>
+
+<global>
+<your-score-is>Your score is: </your-score-is>
+<correct-indicator>&amp;#x2714;</correct-indicator>
+<incorrect-indicator>&amp;#x2718;</incorrect-indicator>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+<times-up>Your time is over!</times-up>
+<check-caption>Check</check-caption>
+<ok-caption>OK</ok-caption>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>1</include-contents>
+<include-back>1</include-back>
+<contents-url>index.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial</font-face>
+<font-size>medium</font-size>
+<page-bg-color>#606060</page-bg-color>
+<title-color>#ffffff</title-color>
+<ex-bg-color>#dddddd</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#0000cc</link-color>
+<vlink-color>#0000ff</vlink-color>
+<nav-bar-color>#101010</nav-bar-color>
+<formmail-url></formmail-url>
+<email></email>
+<name-please>Please enter your name:</name-please>
+<user-string-1></user-string-1>
+<user-string-2></user-string-2>
+<user-string-3></user-string-3>
+<header-code></header-code>
+</global>
+</hotpot-config-file>
+</hotpot-jmatch-file>
